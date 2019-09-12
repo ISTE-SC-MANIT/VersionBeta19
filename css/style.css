@@ -9807,12 +9807,17 @@ textarea.form-control {
 }
 #mg{
   border-radius: 5%;
+  margin-left: 3%;
 }
 .devf{
   border-radius: 5%;
   align-content: center;
 }
 .spons{
-  margin: auto;
   
+  width: 100%;
+}
+@media (min-width: 768px)
+{
+
 }
