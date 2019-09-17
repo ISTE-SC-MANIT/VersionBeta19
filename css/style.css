@@ -9820,3 +9820,49 @@ textarea.form-control {
   position: relative;
   left: -16px;
 }
+@media only screen and (max-width: 600px)
+{
+  .accordion .card .card-header p
+  {
+    font-size: 13px;
+  }
+}
+.row2 .card{
+  margin: 20px;
+}
+@media only screen and (max-width: 360px)
+{
+    .row2 .card{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 412px)
+{
+    .row2 .card{
+    margin-left: 35px;
+   /* margin-right: 20px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 321px)
+{
+    .row2 .card{
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 376px)
+{
+    .row2 .card{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
