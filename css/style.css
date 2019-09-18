@@ -9948,6 +9948,7 @@ margin: auto }
 .row1_p .row_p
 {
   width: 18rem;
+  height: 421.8px;
   
   
 }
@@ -9966,10 +9967,14 @@ margin: auto }
 }
 #fs{
   width: 40rem;
+  height: 349.8px;
+
+
 }
 @media only screen and (max-width: 500px)
 {
   #fs{
   width: 18rem;
+
 }
 }
