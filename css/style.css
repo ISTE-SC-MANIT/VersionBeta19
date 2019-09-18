@@ -8181,7 +8181,7 @@ h1, h2, h3, h4, h5,
       padding-left: 15px;
       padding-right: 15px; } }
   .ftco-navbar-light .container {
-    width: 1110px;
+    width: 1180px;
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
@@ -9793,6 +9793,7 @@ textarea.form-control {
  
 }
 
+
 #cd
 {
    margin-top: 60px;
@@ -9830,39 +9831,123 @@ textarea.form-control {
 .row2 .card{
   margin: 20px;
 }
-@media only screen and (max-width: 360px)
-{
-    .row2 .card{
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.row3 img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
-@media only screen and (max-width: 412px)
-{
-    .row2 .card{
-    margin-left: 35px;
-   /* margin-right: 20px;*/
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.row3{
+  display: inline;
 }
-@media only screen and (max-width: 321px)
+.col1_p 
 {
-    .row2 .card{
-    margin-left: 0px;
-    margin-right:0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-@media only screen and (max-width: 376px)
+.row_p
 {
-    .row2 .card{
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: #1a1a1a;
+  width: 70%;
+  border-radius: 30px;
+}
+.img_p img{
+  width: 130px;
+  height: 130px;
+ margin-right: 25px;
+ margin-top: 25px;
+ margin-bottom: 25px;
+ margin-left:30.2px;
+
+  
+}
+.col2_p
+{
+   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.cash_p{
+  width: 230px;
+  height: 230px;
+  background: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #d81f26;
+  border-width: 25px;
+
+}
+.amt{
+  margin-top: 50px;
+  margin-left:20px;
+  font-size:40px;
+  color: red;
+}
+.hl{
+  width: 80%;
+  height:1px;
+  background: white;
+  margin: auto;
+}
+.col1_p h3
+{
+  margin: auto;
+}
+.col2_p
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.row_p
+{ 
+margin: auto }
+.img_p{
+  width: 230px;
+  height: 230px;
+  background: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #d81f26;
+  border-width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.plus{
+  margin:auto;
+  color: #d81f26;
+  font-size: 50px;
+}
+.explain
+{
+  /*margin-right: auto;
+  margin-left: auto;*/
+  margin-top: 10px;
+}
+.explain p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.row1_p
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.row1_p .row_p
+{
+  width: 18rem;
+  
+  
+}
+.cont1_p
+{
+  margin:40px;
 }
