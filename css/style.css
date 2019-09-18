@@ -9827,6 +9827,10 @@ textarea.form-control {
   {
     font-size: 13px;
   }
+  .cont1_p
+{
+  margin-left:auto;
+}
 }
 .row2 .card{
   margin: 20px;
@@ -9950,4 +9954,13 @@ margin: auto }
 .cont1_p
 {
   margin:40px;
+}
+@media only screen and (max-width: 415px)
+{
+  
+      .cont1_p
+    {
+      margin-left:auto;
+      margin-right: auto;
+    }
 }
