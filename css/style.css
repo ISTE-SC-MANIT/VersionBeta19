@@ -9862,9 +9862,9 @@ display: flex;
   width: 130px;
   height: 130px;
  margin-right: 25px;
- margin-top: 25px;
+ margin-top: 35px;
  margin-bottom: 25px;
- margin-left:30.2px;
+ margin-left:40px;
 
   
 }
@@ -9882,12 +9882,12 @@ display: flex;
   border-radius: 50%;
   border-style: solid;
   border-color: #d81f26;
-  border-width: 25px;
+  border-width: 10px;
 
 }
 .amt{
-  margin-top: 50px;
-  margin-left:20px;
+  margin-top: 60px;
+  margin-left:30px;
   font-size:40px;
   color: red;
 }
@@ -9917,7 +9917,7 @@ margin: auto }
   border-radius: 50%;
   border-style: solid;
   border-color: #d81f26;
-  border-width: 20px;
+  border-width: 10px;
   margin-left: auto;
   margin-right: auto;
 
