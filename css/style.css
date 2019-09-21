@@ -9955,13 +9955,16 @@ margin: auto }
 {
   margin:40px;
 }
-@media only screen and (max-width: 415px)
+@media only screen and (max-width: 1202px)
 {
   
       .cont1_p
     {
       margin-left:auto;
       margin-right: auto;
+    }
+    .row2 a{
+      margin: auto;
     }
 }
 #fs{
@@ -9975,4 +9978,9 @@ margin: auto }
   width: 18rem;
   height: 740px
 }
+}
+
+#s_p{
+  height: 150px;
+  width: 150px;
 }
