@@ -9984,3 +9984,28 @@ margin: auto }
   height: 150px;
   width: 150px;
 }
+.mascot{
+  display: none;
+  
+
+}
+@media only screen and (max-width: 750px)
+{
+ .mascot img{
+  
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  
+ }
+ .mascot
+ {
+  display: inherit;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
+
+}
